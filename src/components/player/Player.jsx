@@ -33,8 +33,7 @@ const Player = ({
 
   return (
     <div style={{ width: "100%", height: "100%", position: "relative" }}>
-      <h2>Hello</h2>
-
+     
       {/* ✅ Your Anime Iframe Player */}
       <iframe
         src={iframeSrc}
