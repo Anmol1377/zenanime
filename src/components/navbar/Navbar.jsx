@@ -126,7 +126,7 @@ function Navbar() {
               <p className="whitespace-nowrap text-[15px]">Anime name</p>
             </div>
           </div>
-          <Link
+          {/* <Link
             to="https://t.me/zenime_discussion"
             className="flex flex-col gap-y-1 items-center cursor-pointer"
           >
@@ -135,7 +135,7 @@ function Navbar() {
               className="text-xl font-bold text-[#ffbade]"
             />
             <p className="text-[15px] mb-[1px] text-white">Join Telegram</p>
-          </Link>
+          </Link> */}
         </div>
         <MobileSearch />
       </nav>
