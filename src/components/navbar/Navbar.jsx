@@ -72,9 +72,7 @@ function Navbar() {
               to="/"
               className="text-4xl font-bold max-[575px]:text-3xl cursor-pointer"
             >
-              {logoTitle.slice(0, 3)}
-              <span className="text-[#FFBADE]">{logoTitle.slice(3, 4)}</span>
-              {logoTitle.slice(4)}
+              <img src="/logo.png" alt="CQ mind" className="w-[140px] h-[50px]"></img>
             </Link>
           </div>
           <WebSearch />
